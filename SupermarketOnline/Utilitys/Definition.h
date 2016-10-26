@@ -29,6 +29,7 @@
 #define RGBCOLOR(r,g,b) [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:1]
 #define RGBACOLOR(r,g,b,a) [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:(a)]
 
+#define Red_BtnColor           RGBCOLOR(229, 24, 35)
 #define Gray_Color              RGBCOLOR(170, 170, 170)
 #define Orange_Color           RGBCOLOR(227, 163, 44)
 #define Cell_sepLineColor       RGBCOLOR(200, 199, 204)     //tablecell间隔线颜色
@@ -73,7 +74,8 @@
 //#define RequestURL(action)           ([NSString stringWithFormat:@"http://yimiyule.com:8080/yimiyule%@",action])
 #define RequestURL(action)           ([NSString stringWithFormat:@"http://yimiyule.com/yimiyule%@",action])
 
-
+#pragma mark - 商户商品相关接口及通知标识
+#define GetBanner                  @"GetBanner"     //获取广告图
 
 #pragma mark - 个人信息相关
 #define Register               @"/app/user/register"   //用户注册

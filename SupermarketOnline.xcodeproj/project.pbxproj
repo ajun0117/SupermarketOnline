@@ -36,6 +36,28 @@
 		040F22891DBE0AD200E832FE /* UITabBarItem+Universal.m in Sources */ = {isa = PBXBuildFile; fileRef = 040F223F1DBE0AD100E832FE /* UITabBarItem+Universal.m */; };
 		040F229B1DBE0AD200E832FE /* DJQRateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 040F226D1DBE0AD200E832FE /* DJQRateView.m */; };
 		040F229C1DBE0AD200E832FE /* DJQStartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 040F226F1DBE0AD200E832FE /* DJQStartView.m */; };
+		0417F4A71DC04C36009F250A /* HomeViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0417F4A61DC04C36009F250A /* HomeViewController.mm */; };
+		0417F4B01DC04C4B009F250A /* HomeCityCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0417F4AB1DC04C4B009F250A /* HomeCityCollectionViewCell.m */; };
+		0417F4B11DC04C4B009F250A /* HomeCityCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0417F4AC1DC04C4B009F250A /* HomeCityCollectionViewCell.xib */; };
+		0417F4B21DC04C4B009F250A /* HomeShopListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0417F4AE1DC04C4B009F250A /* HomeShopListCell.m */; };
+		0417F4B31DC04C4B009F250A /* HomeShopListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0417F4AF1DC04C4B009F250A /* HomeShopListCell.xib */; };
+		0417F4BA1DC04D03009F250A /* CitySelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0417F4B81DC04D03009F250A /* CitySelectViewController.m */; };
+		0417F4BB1DC04D03009F250A /* CitySelectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0417F4B91DC04D03009F250A /* CitySelectViewController.xib */; };
+		0417F4C21DC04DBA009F250A /* JFB.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 0417F4BD1DC04DBA009F250A /* JFB.sqlite */; };
+		0417F4C31DC04DBA009F250A /* JFB.sqlite-shm in Resources */ = {isa = PBXBuildFile; fileRef = 0417F4BE1DC04DBA009F250A /* JFB.sqlite-shm */; };
+		0417F4C41DC04DBA009F250A /* JFB.sqlite-wal in Resources */ = {isa = PBXBuildFile; fileRef = 0417F4BF1DC04DBA009F250A /* JFB.sqlite-wal */; };
+		0417F4C51DC04DBA009F250A /* JFB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0417F4C01DC04DBA009F250A /* JFB.xcdatamodeld */; };
+		0417F4CB1DC04DE3009F250A /* CityDistrictsCoreObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 0417F4C81DC04DE3009F250A /* CityDistrictsCoreObject.m */; };
+		0417F4CC1DC04DE3009F250A /* CityDistrictsCoreObject+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 0417F4CA1DC04DE3009F250A /* CityDistrictsCoreObject+CoreDataProperties.m */; };
+		0417F4D11DC04E85009F250A /* ShopSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0417F4CF1DC04E85009F250A /* ShopSearchViewController.m */; };
+		0417F4D21DC04E85009F250A /* ShopSearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0417F4D01DC04E85009F250A /* ShopSearchViewController.xib */; };
+		0417F4D71DC04FF8009F250A /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0417F4D61DC04FF8009F250A /* LoadingView.m */; };
+		0417F4DD1DC05036009F250A /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0417F4DB1DC05036009F250A /* WebViewController.m */; };
+		0417F4DE1DC05036009F250A /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0417F4DC1DC05036009F250A /* WebViewController.xib */; };
+		0417F4E91DC055CB009F250A /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0417F4E71DC055CB009F250A /* RegisterViewController.m */; };
+		0417F4EA1DC055CB009F250A /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0417F4E81DC055CB009F250A /* RegisterViewController.xib */; };
+		0417F4EE1DC05609009F250A /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0417F4EC1DC05609009F250A /* LoginViewController.m */; };
+		0417F4EF1DC05609009F250A /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0417F4ED1DC05609009F250A /* LoginViewController.xib */; };
 		042705811DBF3F0C00C73738 /* UMSocialLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 042705591DBF3F0C00C73738 /* UMSocialLocalizable.strings */; };
 		042705821DBF3F0C00C73738 /* libUMSocial_Sdk_4.2.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 042705671DBF3F0C00C73738 /* libUMSocial_Sdk_4.2.3.a */; };
 		042705831DBF3F0C00C73738 /* UMSCommentDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 042705691DBF3F0C00C73738 /* UMSCommentDetailController.xib */; };
@@ -158,6 +180,39 @@
 		040F226D1DBE0AD200E832FE /* DJQRateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJQRateView.m; sourceTree = "<group>"; };
 		040F226E1DBE0AD200E832FE /* DJQStartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJQStartView.h; sourceTree = "<group>"; };
 		040F226F1DBE0AD200E832FE /* DJQStartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJQStartView.m; sourceTree = "<group>"; };
+		0417F4A51DC04C36009F250A /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		0417F4A61DC04C36009F250A /* HomeViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HomeViewController.mm; sourceTree = "<group>"; };
+		0417F4AA1DC04C4B009F250A /* HomeCityCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCityCollectionViewCell.h; sourceTree = "<group>"; };
+		0417F4AB1DC04C4B009F250A /* HomeCityCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCityCollectionViewCell.m; sourceTree = "<group>"; };
+		0417F4AC1DC04C4B009F250A /* HomeCityCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeCityCollectionViewCell.xib; sourceTree = "<group>"; };
+		0417F4AD1DC04C4B009F250A /* HomeShopListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeShopListCell.h; sourceTree = "<group>"; };
+		0417F4AE1DC04C4B009F250A /* HomeShopListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeShopListCell.m; sourceTree = "<group>"; };
+		0417F4AF1DC04C4B009F250A /* HomeShopListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeShopListCell.xib; sourceTree = "<group>"; };
+		0417F4B71DC04D03009F250A /* CitySelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CitySelectViewController.h; sourceTree = "<group>"; };
+		0417F4B81DC04D03009F250A /* CitySelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CitySelectViewController.m; sourceTree = "<group>"; };
+		0417F4B91DC04D03009F250A /* CitySelectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CitySelectViewController.xib; sourceTree = "<group>"; };
+		0417F4BD1DC04DBA009F250A /* JFB.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = JFB.sqlite; sourceTree = "<group>"; };
+		0417F4BE1DC04DBA009F250A /* JFB.sqlite-shm */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JFB.sqlite-shm"; sourceTree = "<group>"; };
+		0417F4BF1DC04DBA009F250A /* JFB.sqlite-wal */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JFB.sqlite-wal"; sourceTree = "<group>"; };
+		0417F4C11DC04DBA009F250A /* JFB.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JFB.xcdatamodel; sourceTree = "<group>"; };
+		0417F4C71DC04DE3009F250A /* CityDistrictsCoreObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityDistrictsCoreObject.h; sourceTree = "<group>"; };
+		0417F4C81DC04DE3009F250A /* CityDistrictsCoreObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityDistrictsCoreObject.m; sourceTree = "<group>"; };
+		0417F4C91DC04DE3009F250A /* CityDistrictsCoreObject+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CityDistrictsCoreObject+CoreDataProperties.h"; sourceTree = "<group>"; };
+		0417F4CA1DC04DE3009F250A /* CityDistrictsCoreObject+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CityDistrictsCoreObject+CoreDataProperties.m"; sourceTree = "<group>"; };
+		0417F4CE1DC04E85009F250A /* ShopSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShopSearchViewController.h; sourceTree = "<group>"; };
+		0417F4CF1DC04E85009F250A /* ShopSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShopSearchViewController.m; sourceTree = "<group>"; };
+		0417F4D01DC04E85009F250A /* ShopSearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShopSearchViewController.xib; sourceTree = "<group>"; };
+		0417F4D51DC04FF8009F250A /* LoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingView.h; sourceTree = "<group>"; };
+		0417F4D61DC04FF8009F250A /* LoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingView.m; sourceTree = "<group>"; };
+		0417F4DA1DC05036009F250A /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		0417F4DB1DC05036009F250A /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		0417F4DC1DC05036009F250A /* WebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
+		0417F4E61DC055CB009F250A /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		0417F4E71DC055CB009F250A /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		0417F4E81DC055CB009F250A /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisterViewController.xib; sourceTree = "<group>"; };
+		0417F4EB1DC05609009F250A /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		0417F4EC1DC05609009F250A /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		0417F4ED1DC05609009F250A /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		0427055A1DBF3F0C00C73738 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/UMSocialLocalizable.strings; sourceTree = "<group>"; };
 		0427055C1DBF3F0C00C73738 /* UMSocial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocial.h; sourceTree = "<group>"; };
 		0427055D1DBF3F0C00C73738 /* UMSocialAccountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMSocialAccountManager.h; sourceTree = "<group>"; };
@@ -310,6 +365,9 @@
 				040F21DC1DBDF14E00E832FE /* Assets.xcassets */,
 				040F21DE1DBDF14E00E832FE /* LaunchScreen.storyboard */,
 				040F21E11DBDF14E00E832FE /* Info.plist */,
+				0417F4BC1DC04DBA009F250A /* Models */,
+				0417F4A81DC04C4B009F250A /* Views */,
+				0417F49F1DC048D5009F250A /* ViewControllers */,
 				040F21CD1DBDF14E00E832FE /* Supporting Files */,
 			);
 			path = SupermarketOnline;
@@ -433,6 +491,157 @@
 				040F226F1DBE0AD200E832FE /* DJQStartView.m */,
 			);
 			path = "评星";
+			sourceTree = "<group>";
+		};
+		0417F49F1DC048D5009F250A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0417F4DF1DC05099009F250A /* Other */,
+				0417F4CD1DC04E85009F250A /* Merchant */,
+				0417F4A41DC04C36009F250A /* Home */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0417F4A41DC04C36009F250A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0417F4B51DC04CE8009F250A /* 城市选择 */,
+				0417F4A51DC04C36009F250A /* HomeViewController.h */,
+				0417F4A61DC04C36009F250A /* HomeViewController.mm */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		0417F4A81DC04C4B009F250A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0417F4D41DC04FF8009F250A /* Other */,
+				0417F4A91DC04C4B009F250A /* Home */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0417F4A91DC04C4B009F250A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0417F4B61DC04CF3009F250A /* 城市选择 */,
+				0417F4AD1DC04C4B009F250A /* HomeShopListCell.h */,
+				0417F4AE1DC04C4B009F250A /* HomeShopListCell.m */,
+				0417F4AF1DC04C4B009F250A /* HomeShopListCell.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		0417F4B51DC04CE8009F250A /* 城市选择 */ = {
+			isa = PBXGroup;
+			children = (
+				0417F4B71DC04D03009F250A /* CitySelectViewController.h */,
+				0417F4B81DC04D03009F250A /* CitySelectViewController.m */,
+				0417F4B91DC04D03009F250A /* CitySelectViewController.xib */,
+			);
+			name = "城市选择";
+			sourceTree = "<group>";
+		};
+		0417F4B61DC04CF3009F250A /* 城市选择 */ = {
+			isa = PBXGroup;
+			children = (
+				0417F4AA1DC04C4B009F250A /* HomeCityCollectionViewCell.h */,
+				0417F4AB1DC04C4B009F250A /* HomeCityCollectionViewCell.m */,
+				0417F4AC1DC04C4B009F250A /* HomeCityCollectionViewCell.xib */,
+			);
+			name = "城市选择";
+			sourceTree = "<group>";
+		};
+		0417F4BC1DC04DBA009F250A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0417F4C61DC04DBF009F250A /* 数据库 */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0417F4C61DC04DBF009F250A /* 数据库 */ = {
+			isa = PBXGroup;
+			children = (
+				0417F4C71DC04DE3009F250A /* CityDistrictsCoreObject.h */,
+				0417F4C81DC04DE3009F250A /* CityDistrictsCoreObject.m */,
+				0417F4C91DC04DE3009F250A /* CityDistrictsCoreObject+CoreDataProperties.h */,
+				0417F4CA1DC04DE3009F250A /* CityDistrictsCoreObject+CoreDataProperties.m */,
+				0417F4BD1DC04DBA009F250A /* JFB.sqlite */,
+				0417F4BE1DC04DBA009F250A /* JFB.sqlite-shm */,
+				0417F4BF1DC04DBA009F250A /* JFB.sqlite-wal */,
+				0417F4C01DC04DBA009F250A /* JFB.xcdatamodeld */,
+			);
+			name = "数据库";
+			sourceTree = "<group>";
+		};
+		0417F4CD1DC04E85009F250A /* Merchant */ = {
+			isa = PBXGroup;
+			children = (
+				0417F4D31DC04E90009F250A /* 商家搜索 */,
+			);
+			path = Merchant;
+			sourceTree = "<group>";
+		};
+		0417F4D31DC04E90009F250A /* 商家搜索 */ = {
+			isa = PBXGroup;
+			children = (
+				0417F4CE1DC04E85009F250A /* ShopSearchViewController.h */,
+				0417F4CF1DC04E85009F250A /* ShopSearchViewController.m */,
+				0417F4D01DC04E85009F250A /* ShopSearchViewController.xib */,
+			);
+			name = "商家搜索";
+			sourceTree = "<group>";
+		};
+		0417F4D41DC04FF8009F250A /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				0417F4D91DC0502C009F250A /* 网页 */,
+				0417F4D81DC04FFE009F250A /* 引导页 */,
+			);
+			name = Other;
+			path = other;
+			sourceTree = "<group>";
+		};
+		0417F4D81DC04FFE009F250A /* 引导页 */ = {
+			isa = PBXGroup;
+			children = (
+				0417F4D51DC04FF8009F250A /* LoadingView.h */,
+				0417F4D61DC04FF8009F250A /* LoadingView.m */,
+			);
+			name = "引导页";
+			sourceTree = "<group>";
+		};
+		0417F4D91DC0502C009F250A /* 网页 */ = {
+			isa = PBXGroup;
+			children = (
+				0417F4DA1DC05036009F250A /* WebViewController.h */,
+				0417F4DB1DC05036009F250A /* WebViewController.m */,
+				0417F4DC1DC05036009F250A /* WebViewController.xib */,
+			);
+			name = "网页";
+			sourceTree = "<group>";
+		};
+		0417F4DF1DC05099009F250A /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				0417F4E51DC0509E009F250A /* 登录注册 */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		0417F4E51DC0509E009F250A /* 登录注册 */ = {
+			isa = PBXGroup;
+			children = (
+				0417F4EB1DC05609009F250A /* LoginViewController.h */,
+				0417F4EC1DC05609009F250A /* LoginViewController.m */,
+				0417F4ED1DC05609009F250A /* LoginViewController.xib */,
+				0417F4E61DC055CB009F250A /* RegisterViewController.h */,
+				0417F4E71DC055CB009F250A /* RegisterViewController.m */,
+				0417F4E81DC055CB009F250A /* RegisterViewController.xib */,
+			);
+			name = "登录注册";
 			sourceTree = "<group>";
 		};
 		042705571DBF3F0C00C73738 /* share */ = {
@@ -710,22 +919,32 @@
 				042705841DBF3F0C00C73738 /* UMSCommentInputController.xib in Resources */,
 				040F227E1DBE0AD200E832FE /* indicator.png in Resources */,
 				040F21E01DBDF14E00E832FE /* LaunchScreen.storyboard in Resources */,
+				0417F4EF1DC05609009F250A /* LoginViewController.xib in Resources */,
 				042705D01DBF4CE300C73738 /* mapapi.bundle in Resources */,
+				0417F4D21DC04E85009F250A /* ShopSearchViewController.xib in Resources */,
 				042705861DBF3F0C00C73738 /* UMShareEditViewController.xib in Resources */,
 				040F227F1DBE0AD200E832FE /* MJRefresh.bundle in Resources */,
 				0427058B1DBF3F0C00C73738 /* UMSocialSDKResourcesNew.bundle in Resources */,
 				040F21DD1DBDF14E00E832FE /* Assets.xcassets in Resources */,
+				0417F4B11DC04C4B009F250A /* HomeCityCollectionViewCell.xib in Resources */,
 				042705891DBF3F0C00C73738 /* UMSnsAccountViewController.xib in Resources */,
 				042705831DBF3F0C00C73738 /* UMSCommentDetailController.xib in Resources */,
+				0417F4DE1DC05036009F250A /* WebViewController.xib in Resources */,
 				042705851DBF3F0C00C73738 /* UMSCommentInputControlleriPad.xib in Resources */,
+				0417F4C21DC04DBA009F250A /* JFB.sqlite in Resources */,
 				040F21DB1DBDF14E00E832FE /* Main.storyboard in Resources */,
+				0417F4BB1DC04D03009F250A /* CitySelectViewController.xib in Resources */,
 				040F227A1DBE0AD200E832FE /* whiteplaceholder.png in Resources */,
 				0427058C1DBF3F0C00C73738 /* Info.plist in Resources */,
+				0417F4B31DC04C4B009F250A /* HomeShopListCell.xib in Resources */,
 				042705871DBF3F0C00C73738 /* UMShareEditViewControlleriPad.xib in Resources */,
 				0427058F1DBF3F0C00C73738 /* TencentOpenApi_IOS_Bundle.bundle in Resources */,
 				0427058A1DBF3F0C00C73738 /* UMSShareListController.xib in Resources */,
+				0417F4EA1DC055CB009F250A /* RegisterViewController.xib in Resources */,
+				0417F4C31DC04DBA009F250A /* JFB.sqlite-shm in Resources */,
 				042705811DBF3F0C00C73738 /* UMSocialLocalizable.strings in Resources */,
 				042705881DBF3F0C00C73738 /* UMSLoginViewController.xib in Resources */,
+				0417F4C41DC04DBA009F250A /* JFB.sqlite-wal in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -783,35 +1002,47 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0417F4B01DC04C4B009F250A /* HomeCityCollectionViewCell.m in Sources */,
 				040F22701DBE0AD200E832FE /* AJAdView.m in Sources */,
 				040F21D21DBDF14E00E832FE /* AppDelegate.m in Sources */,
 				040F22791DBE0AD200E832FE /* HZPhotoBrowserView.m in Sources */,
+				0417F4CC1DC04DE3009F250A /* CityDistrictsCoreObject+CoreDataProperties.m in Sources */,
 				040F22861DBE0AD200E832FE /* UIView+MJExtension.m in Sources */,
 				040F22051DBE0A4A00E832FE /* TabBarController.m in Sources */,
 				042705A81DBF401B00C73738 /* UIColor+RGBTransform.m in Sources */,
 				042705A61DBF401B00C73738 /* MarkupParser.m in Sources */,
 				040F22821DBE0AD200E832FE /* MJRefreshFooterView.m in Sources */,
+				0417F4D71DC04FF8009F250A /* LoadingView.m in Sources */,
+				0417F4DD1DC05036009F250A /* WebViewController.m in Sources */,
 				040F22771DBE0AD200E832FE /* HZIndicatorView.m in Sources */,
 				040F22891DBE0AD200E832FE /* UITabBarItem+Universal.m in Sources */,
 				040F22831DBE0AD200E832FE /* MJRefreshHeaderView.m in Sources */,
 				040F21CF1DBDF14E00E832FE /* main.m in Sources */,
 				042705A51DBF401B00C73738 /* DashedBoxView.m in Sources */,
 				042705A21DBF401B00C73738 /* CustomLabel.m in Sources */,
+				0417F4D11DC04E85009F250A /* ShopSearchViewController.m in Sources */,
 				040F227C1DBE0AD200E832FE /* AJMessageView.m in Sources */,
 				040F22841DBE0AD200E832FE /* UIScrollView+MJExtension.m in Sources */,
 				040F227D1DBE0AD200E832FE /* CustomActivityIndicatorView.m in Sources */,
+				0417F4C51DC04DBA009F250A /* JFB.xcdatamodeld in Sources */,
 				040F22851DBE0AD200E832FE /* UIScrollView+MJRefresh.m in Sources */,
+				0417F4E91DC055CB009F250A /* RegisterViewController.m in Sources */,
 				040F22801DBE0AD200E832FE /* MJRefreshBaseView.m in Sources */,
 				040F229C1DBE0AD200E832FE /* DJQStartView.m in Sources */,
 				040F22761DBE0AD200E832FE /* GlobalSetting.m in Sources */,
 				040F22811DBE0AD200E832FE /* MJRefreshConst.m in Sources */,
+				0417F4B21DC04C4B009F250A /* HomeShopListCell.m in Sources */,
 				040F229B1DBE0AD200E832FE /* DJQRateView.m in Sources */,
+				0417F4CB1DC04DE3009F250A /* CityDistrictsCoreObject.m in Sources */,
+				0417F4EE1DC05609009F250A /* LoginViewController.m in Sources */,
 				042705AE1DBF410000C73738 /* CircleProgressView.m in Sources */,
 				042705A71DBF401B00C73738 /* NSString+Check.m in Sources */,
 				042705AF1DBF410000C73738 /* WPImageView.m in Sources */,
 				040F22751DBE0AD200E832FE /* DataRequest.m in Sources */,
+				0417F4BA1DC04D03009F250A /* CitySelectViewController.m in Sources */,
 				042705A31DBF401B00C73738 /* CustomTextField.m in Sources */,
 				042705A41DBF401B00C73738 /* CustomTextView.m in Sources */,
+				0417F4A71DC04C36009F250A /* HomeViewController.mm in Sources */,
 				040F22781DBE0AD200E832FE /* HZPhotoBrowser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1112,6 +1343,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0417F4C01DC04DBA009F250A /* JFB.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0417F4C11DC04DBA009F250A /* JFB.xcdatamodel */,
+			);
+			currentVersion = 0417F4C11DC04DBA009F250A /* JFB.xcdatamodel */;
+			path = JFB.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 040F21C21DBDF14E00E832FE /* Project object */;
 }
