@@ -1307,7 +1307,7 @@
 					"$(PROJECT_DIR)/SupermarketOnline/Utilitys/share/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
 					"$(PROJECT_DIR)/SupermarketOnline/Utilitys/share/UMSocial_Sdk_Extra_Frameworks/Wechat",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.lydcom.SupermarketOnline;
+				PRODUCT_BUNDLE_IDENTIFIER = com.redthunder.veggieMarket;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1338,7 +1338,7 @@
 					"$(PROJECT_DIR)/SupermarketOnline/Utilitys/share/UMSocial_Sdk_Extra_Frameworks/TencentOpenAPI",
 					"$(PROJECT_DIR)/SupermarketOnline/Utilitys/share/UMSocial_Sdk_Extra_Frameworks/Wechat",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.lydcom.SupermarketOnline;
+				PRODUCT_BUNDLE_IDENTIFIER = com.redthunder.veggieMarket;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
